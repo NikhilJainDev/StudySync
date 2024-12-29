@@ -1,0 +1,123 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+body{
+    
+    background-image: url("https://img.freepik.com/free-vector/gradient-technology-futuristic-background_23-2149122416.jpg?semt=ais_hybrid");
+    background-size: cover;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    min-width: 300px; /* Minimum width for responsiveness */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+#name{
+    color: blue;
+}
+#email{
+    color: blue;
+}
+#message{
+    color: blue;
+}
+#details{
+    color: blue;
+}
+.form-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .form-container {
+        flex-direction: column; /* Stack forms on smaller screens */
+        align-items: center; /* Center align forms */
+    }
+}
+.footer-section{
+    background-color: black;
+    color: white;
+    margin-top: 5rem;
+    height: 50px;
+    justify-content: center;
+    line-height: normal;
+}
+.header-sec{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-left: 13px;
+}
+.header-sec p{
+    color: grey;
+}
+.header-sec h1{
+    color: white;
+}
+.header-sec p{
+    color: white;
+}
+@media screen and (max-width: 780px){
+    .header-sec{
+        text-align: center;
+    }
+}
+
+
