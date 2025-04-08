@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #1f2937; /* Dark slate */
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .courses-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .course-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .course-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .course-card h2 {
+    margin-bottom: 0.5rem;
+    color: #1d4ed8; /* Indigo */
+  }
+  
+  .course-card p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+  }
+  
+  .discount {
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 0.5rem;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #10b981; /* Emerald green */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #059669; /* Darker green */
+  }
+  
